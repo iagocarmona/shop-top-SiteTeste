@@ -1,0 +1,117 @@
+.boxCampaign {
+  width: 29.938rem;
+  background: #f0f0f0;
+}
+.navbarCampaign {
+  height: 2.563rem;
+  background: #3c7aef;
+  color: white;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  padding-left: 0.875rem;
+}
+.container-boxes {
+  display: flex;
+}
+.validade {
+  width: 13.438rem;
+  height: 3.25rem;
+  margin: 1rem;
+  background: #e1e8ed;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.7rem;
+  align-items: center;
+  padding: 1rem;
+}
+.validade #calendar {
+  color: #1572eb;
+  font-size: 1rem;
+}
+.textValid {
+  font-size: 0.625rem;
+  color: #001078;
+}
+.textDate {
+  font-size: 1rem;
+  color: #1572eb;
+}
+.participantes {
+  width: 13.438rem;
+  height: 3.25rem;
+  margin: 1rem;
+  background: #e1e8ed;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.7rem;
+  align-items: center;
+  padding: 1rem;
+}
+.participantes #people {
+  color: #1572eb;
+  font-size: 1rem;
+}
+.textParts {
+  font-size: 0.625rem;
+  color: #001078;
+}
+.textNum {
+  font-size: 1rem;
+  color: #1572eb;
+}
+.textLorem {
+  padding: 1rem;
+}
+
+/*  ----------------------------------------------
+            MEDIA QUERRIES
+    ---------------------------------------------- */
+
+@media (max-width: 650px) {
+  .boxCampaign {
+    width: 18rem;
+  }
+  .container-boxes {
+    display: grid;
+  }
+  .validade {
+    margin: 0.8rem;
+    margin-bottom: 0;
+    width: unset;
+  }
+  .participantes {
+    margin: 0.8rem;
+    width: unset;
+  }
+  .textLorem {
+    padding: 0.8rem;
+    padding-top: 0;
+  }
+}
+@media (max-width: 430px) {
+  .boxCampaign {
+    width: 18rem;
+  }
+  .container-boxes {
+    display: grid;
+  }
+  .validade {
+    margin: 0.8rem;
+    margin-bottom: 0;
+    width: unset;
+  }
+  .participantes {
+    margin: 0.8rem;
+    width: unset;
+  }
+  .textLorem {
+    padding: 0.8rem;
+    padding-top: 0;
+  }
+}
+@media (max-width: 315px) {
+  .boxCampaign {
+    width: 12rem;
+  }
+}

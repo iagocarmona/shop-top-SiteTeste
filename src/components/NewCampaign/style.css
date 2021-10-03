@@ -1,0 +1,60 @@
+.cotainerInput {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.checkboxLabel {
+  margin-top: 1rem;
+}
+.checkboxContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.InputMarginTop {
+  margin-top: 1rem;
+  width: 100%;
+}
+.backgroundTextArea {
+  width: 100%;
+  padding-bottom: 0;
+}
+.textAreaModal {
+  width: 100%;
+  height: calc(100% - 2rem);
+  outline: none;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: lighter;
+  font-size: 18px;
+  font-weight: bold;
+}
+.textArea {
+  gap: 1rem;
+  display: flex;
+}
+.giftContainer {
+  width: 50%;
+}
+.createCampaign {
+  width: 100%;
+}
+.giftCheckBox {
+  gap: 1rem;
+  margin-top: 1rem;
+  background: #f0f0f0;
+  padding: 0.5rem;
+}
+.labelGiftBox {
+  margin: 0;
+}
+.checkBoxGift {
+  margin: 0;
+}
+
+@media (max-width: 380px) {
+  .textAreaModal {
+    height: calc(100% - 3.5rem);
+  }
+}

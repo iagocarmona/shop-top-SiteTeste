@@ -1,0 +1,66 @@
+.backgroundInput {
+  width: 100%;
+  height: 33px;
+  outline: none;
+  color: #2f80ed;
+  font-size: 18px;
+  font-weight: bold;
+}
+.backgroundInput.error {
+  width: 100%;
+  height: 33px;
+  outline: none;
+  color: #eb5757;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inputBack {
+  background: white;
+  border: 1px solid #c1bbbb;
+  padding-top: 12px;
+  padding-left: 27px;
+  padding-bottom: 14px;
+}
+
+.textAreaBack {
+  background: white;
+  border: 1px solid #c1bbbb;
+  padding-top: 12px;
+  padding-left: 27px;
+  padding-bottom: 14px;
+}
+
+.inputBack.active {
+  background: white;
+  border: 1px solid #c1bbbb;
+  padding-top: 12px;
+  padding-left: 27px;
+  padding-bottom: 14px;
+  border-left: 3px solid #0c31f1;
+}
+
+.labelText {
+  color: #4f4f4f;
+  font-size: 18px;
+}
+.labelText.error {
+  color: #eb5757;
+  font-size: 18px;
+}
+
+.formOptions {
+  margin-top: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox {
+  margin-right: 12px;
+}
+.fotgotText {
+  color: #0000009c;
+  text-decoration: none;
+}
+.remember {
+  color: #0000009c;
+}

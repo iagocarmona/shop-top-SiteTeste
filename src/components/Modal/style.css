@@ -1,0 +1,18 @@
+.modal-lg,
+.modal-xl {
+  max-width: 51.3rem !important;
+}
+
+.close {
+  display: flex !important;
+  align-items: center !important;
+  background-color: transparent !important;
+  height: 4.1rem !important;
+  font-size: 3rem !important;
+  font-weight: bolder !important;
+  color: #1572eb !important;
+}
+.modal-header {
+  background: #f0f0f0;
+  padding: 0rem 1rem !important;
+}

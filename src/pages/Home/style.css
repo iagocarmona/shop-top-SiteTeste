@@ -1,0 +1,259 @@
+.buttonMenu {
+  display: flex;
+  width: 19rem;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-right: 3.5rem;
+}
+.iconStyle {
+  background: transparent;
+  color: #3751fe;
+  font-size: 1.5rem;
+}
+.navbar {
+  height: 15vh;
+  background: #f5f5f5;
+}
+
+.masterContainer {
+  height: 85vh;
+  background: white;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.marginContainer {
+  background: #f5f5f5;
+  height: 7rem;
+  margin: 1.5rem 0 2.25rem 0;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.813rem 1.438rem 1.813rem 3.625rem;
+}
+
+.searchInput {
+  width: 100%;
+}
+
+.inputDiv {
+  width: 100%;
+}
+
+.textInput {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border-bottom: 2px solid #3751fe;
+  font-size: 1.313rem;
+  padding: 0.6rem 0 0.4rem 0.8rem;
+}
+
+.search {
+  display: flex;
+  width: 14.6rem;
+  height: 3.3rem;
+  background: #3751fe;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5.3rem 1rem 1rem;
+  color: white;
+}
+.search:hover {
+  background: #1b2da7;
+}
+
+.textInput::placeholder {
+  color: #2f80ed;
+  font-size: 1.125rem;
+}
+
+.searchButton {
+  margin-left: 5.188rem;
+}
+
+.buttonsContainer {
+  height: 7rem;
+  background: #f2f2f2;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.375rem;
+}
+
+.campaignContainer {
+  overflow-x: auto;
+  height: 50vh;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.backgroundCampaign {
+  display: flex;
+  gap: 2.688rem;
+}
+
+/* 
+-----------------------------------------------------------------------------------------
+----                                           ------------------------------------------
+----           MEDIA QUERRIES                  ------------------------------------------
+----                                           ------------------------------------------
+----------------------------------------------------------------------------------------- 
+*/
+
+@media (max-width: 1150px) {
+  body {
+    overflow: auto;
+  }
+  .backgroundCampaign {
+    display: grid;
+    margin-top: 1rem;
+  }
+  .campaignContainer {
+    height: unset;
+    background: #f7f7f7;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .hidden {
+    display: unset;
+  }
+}
+
+@media (max-width: 960px) {
+  body {
+    overflow: auto;
+  }
+  .search {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 4rem;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .backgroundCampaign {
+    display: grid;
+    margin-top: 1rem;
+  }
+  .campaignContainer {
+    height: unset;
+    background: #f7f7f7;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .hidden {
+    display: unset;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    overflow: auto;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .buttonMenu {
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+  .searchContainer {
+    display: grid;
+    justify-content: inherit;
+    padding: 0 1rem 1rem 1rem;
+    padding-top: none;
+  }
+  .searchButton {
+    margin-left: 15%;
+  }
+  .search {
+    margin-left: none;
+    width: 80%;
+    height: 2.2rem;
+    margin-top: 0.8rem;
+  }
+  .textInput::placeholder {
+    font-size: 0.8rem;
+  }
+  .backgroundCampaign {
+    display: grid;
+    margin-top: 1rem;
+  }
+  .campaignContainer {
+    height: unset;
+    background: #f7f7f7;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .hidden {
+    display: unset;
+  }
+}
+
+@media (max-width: 430px) {
+  body {
+    overflow: auto;
+  }
+  .navbar {
+    height: 5rem;
+  }
+  .buttonMenu {
+    display: flex;
+    margin: 0 auto;
+  }
+  .marginContainer {
+    background: #f5f5f5;
+    height: 7rem;
+    margin: 1rem 0 1rem 0;
+  }
+  .masterContainer {
+    height: 85vh;
+    background: white;
+    padding: 0;
+  }
+
+  .buttonsContainer {
+    height: 5rem;
+    margin-bottom: 0;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: unset;
+    gap: unset;
+  }
+  .backgroundContainer {
+    padding-top: 1rem;
+  }
+  .backgroundCampaign {
+    display: grid;
+    margin-top: 1rem;
+  }
+  .campaignContainer {
+    height: unset;
+    background: #f7f7f7;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .hidden {
+    display: unset;
+  }
+}
+
+@media (max-width: 315px) {
+  body {
+    overflow: auto;
+  }
+}

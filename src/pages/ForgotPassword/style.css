@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.backgroundPass {
+  width: 100vh;
+  height: 100%;
+  background: #f9f9f9;
+  padding: 14.5rem 8rem 30.3rem 8.5rem;
+}
+.title2 {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 4rem;
+}
+.nameTitle {
+  margin: unset;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+.lockEmoji {
+  margin-top: 5px;
+  width: 2rem;
+  height: 2rem;
+}
+.nameSubtitle {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.subtitleH4 {
+  margin-bottom: 1.9rem;
+}
+.InputEmail {
+  margin-bottom: 1.8rem;
+}
+.buttonEnviar {
+  margin: unset;
+}
+.buttonField {
+  display: flex;
+  justify-content: flex-end;
+}
